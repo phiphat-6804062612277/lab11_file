@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define NO_SCORE 5
-#define NO_student 4
+#define NO_student 10
 typedef struct {
     char name[25];
     char surname[30];
@@ -87,4 +87,5 @@ void findLessThanTen(Student *s) {
     }
     if (count==0)
         printf(" -> None");
+
 }
